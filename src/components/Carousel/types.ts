@@ -26,7 +26,7 @@ export interface CarouselProps {
     autoPlay?: boolean;
     centerMode?: boolean;
     centerSlidePercentage: number;
-    children?: React.ReactChild[];
+    children?: React.ReactNode;
     className?: string;
     dynamicHeight?: boolean;
     emulateTouch?: boolean;
